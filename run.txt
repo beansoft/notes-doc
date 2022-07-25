@@ -19,3 +19,12 @@ npx npm-check-updates -u --target greatest
 npm i vuepress@next vuepress-theme-hope@next && npm install && npm update
 
 
+https://v2.vuepress.vuejs.org/zh/guide/deployment.html#vercel
+
+Vercel
+前往 Vercel ，从 GitHub 创建一个新项目，并进行如下配置：
+
+FRAMEWORK PRESET: Other
+BUILD COMMAND: yarn docs:build
+OUTPUT DIRECTORY: docs/.vuepress/dist
+点击 deploy 按钮。

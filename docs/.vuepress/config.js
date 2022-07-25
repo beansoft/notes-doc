@@ -48,7 +48,7 @@ module.exports = defineHopeConfig({
                ],
 
     ],
-    base : '/fast-request/',
+    base : '/',
     title: 'Notes',
 //    description: 'Intellij Restful Fast Request',
     head: [
@@ -56,13 +56,13 @@ module.exports = defineHopeConfig({
             'link',
             {
                 rel: 'icon',
-                href: '/fast-request/img/pluginIcon.svg'
+                href: '/img/pluginIcon.svg'
             }
         ],
         [
             'script',
             {
-                src: '/fast-request/js/love-me.js'
+                src: '/js/love-me.js'
             }
         ],
     ],
