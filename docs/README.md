@@ -15,7 +15,7 @@ features:
   link: /guide/introduce.html
 - title: 效率至上
   icon: effective
-  details: 选择代码, 然后使用快捷键Alt+M或者Alt+Enter，一键存储笔记, 从而节省大量时间
+  details: 选择代码, 然后使用快捷键Alt+M或者Alt+Enter，一键存储笔记, 节省大量时间
   link: /guide/getstarted/start.html
 - title: 功能丰富
   icon: features
@@ -35,7 +35,9 @@ head:
 
 ---
 
-一款最好的适合程序员使用的笔记和书签管理软件, 不离开IDE完成创建修改搜索代码笔记功能, 支持 SQLite 本地数据库存储或者Evernote存储, 支持查看Evernote网页笔记和图片
+中文用户如遇到字体显示问题, 可点击小齿轮设置界面的默认字体为中文字体例如微软雅黑即可.
+
+一款最好的适合程序员使用的笔记和书签管理软件, 不离开IDE完成创建修改搜索代码笔记功能, 支持 SQLite 本地数据库存储或者Evernote存储, 支持查看Evernote网页笔记和图片.
 
 [//]: # (<a href="https://www.jetbrains.com"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg" width = "10%" /></a>)
 
