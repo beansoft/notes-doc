@@ -20,32 +20,33 @@ module.exports = defineHopeConfig({
 //              hideRouteList:["en"],
 //              closeOnce: false
 //            }]
-           [
-                 '@vuepress/docsearch',
-                 {
-                   appId:"8FRYEU6KK8",
-                   apiKey: '84f513df1e83406ba42179da778d87b4',
-                   indexName: 'dromara-fast-request',
-                   locales: {
-                     '/en': {
-                       placeholder: 'Search Documentation',
-                       translations: {
-                         button: {
-                           buttonText: 'Search Documentation',
-                         },
-                       },
-                     },
-                     '/': {
-                       placeholder: '搜索文档',
-                       translations: {
-                         button: {
-                           buttonText: '搜索文档',
-                         },
-                       },
-                     },
-                   },
-                 },
-               ],
+        // TODO 搜索功能要求文档必须开源
+//            [
+//                  '@vuepress/docsearch',
+//                  {
+//                    appId:"8FRYEU6KK8",
+//                    apiKey: '84f513df1e83406ba42179da778d87b4',
+//                    indexName: 'dromara-fast-request',
+//                    locales: {
+//                      '/en': {
+//                        placeholder: 'Search Documentation',
+//                        translations: {
+//                          button: {
+//                            buttonText: 'Search Documentation',
+//                          },
+//                        },
+//                      },
+//                      '/': {
+//                        placeholder: '搜索文档',
+//                        translations: {
+//                          button: {
+//                            buttonText: '搜索文档',
+//                          },
+//                        },
+//                      },
+//                    },
+//                  },
+//                ],
 
     ],
     base : '/',
@@ -94,13 +95,13 @@ module.exports = defineHopeConfig({
                   flowchart: true,
 
               },
-              comment: {
-                   type: 'giscus',
-                   repo:'kings1990/giscus-fastrequest',
-                   repoId:'R_kgDOHLlUsg',
-                   category:'fastRequest',
-                   categoryId:'DIC_kwDOHLlUss4COlsW'
-              }
+              // comment: {
+              //      type: 'giscus',
+              //      repo:'kings1990/giscus-fastrequest',
+              //      repoId:'R_kgDOHLlUsg',
+              //      category:'fastRequest',
+              //      categoryId:'DIC_kwDOHLlUss4COlsW'
+              // }
         },
         displayFooter: true,
         copyright: "Copyright © 2021-present BeanSoft@126.com",
@@ -135,41 +136,41 @@ module.exports = defineHopeConfig({
                           link: '/en/guide/getstarted/start',
                           icon: "start1"
                       },
-                      {
-                          text: 'Features',
-                          link: '/en/guide/feature',
-                          icon: "tools"
-                      },
-                      {
-                          text: 'Contact Group',
-                          link: '/en/guide/history',
-                          icon: "changelog"
-                      }
+                      // {
+                      //     text: 'Features',
+                      //     link: '/en/guide/feature',
+                      //     icon: "tools"
+                      // },
+                      // {
+                      //     text: 'Contact Group',
+                      //     link: '/en/guide/history',
+                      //     icon: "changelog"
+                      // }
                   ],
                 sidebar: {
                     '/en/guide/': [
-                        "introduce",
-                        {
-                            text: "Getting started",
-                            icon: "leibie",
-                            prefix: "getstarted/",
-                            collapsable: false,
-                            children: [
-                              "start",
-                              "projectEnv",
-                              "dataMapping",
-                              "stringGenerationStrategy",
-                              "icon",
-                              "otherConfig",
-                            ],
-                        },
+                        // "introduce",
+                        // {
+                        //     text: "Getting started",
+                        //     icon: "leibie",
+                        //     prefix: "getstarted/",
+                        //     collapsable: false,
+                        //     children: [
+                        //       "start",
+                        //       "projectEnv",
+                        //       "dataMapping",
+                        //       "stringGenerationStrategy",
+                        //       "icon",
+                        //       "otherConfig",
+                        //     ],
+                        // },
                         "install",
-                        "feature",
-                        "whatsnew",
-                        "history",
-                        "buy",
-                        "concatGroup",
-                        "faq",
+                        // "feature",
+                        // "whatsnew",
+                        // "history",
+                        // "buy",
+                        // "concatGroup",
+                        // "faq",
                     ]
                 }
             },
@@ -187,52 +188,52 @@ module.exports = defineHopeConfig({
                         link: '/guide/getstarted/start',
                         icon: "start1"
                     },
-                    {
-                        text: '功能',
-                        link: '/guide/feature',
-                        icon: "tools"
-                    },
-                    {
-                        text: '历史变更',
-                        link: '/guide/history',
-                        icon: "changelog"
-                    },
-                    {
-                        text: '视频教程',
-                        link: '/guide/teachingVideo',
-                        icon: "bilibili"
-                    },
-                     {
-                         text: '加入群聊',
-                         link: '/guide/concatGroup',
-                         icon: "contactGroup"
-                     }
+                    // {
+                    //     text: '功能',
+                    //     link: '/guide/feature',
+                    //     icon: "tools"
+                    // },
+                    // {
+                    //     text: '历史变更',
+                    //     link: '/guide/history',
+                    //     icon: "changelog"
+                    // },
+                    // {
+                    //     text: '视频教程',
+                    //     link: '/guide/teachingVideo',
+                    //     icon: "bilibili"
+                    // },
+                    //  {
+                    //      text: '加入群聊',
+                    //      link: '/guide/concatGroup',
+                    //      icon: "contactGroup"
+                    //  }
                 ],
                 sidebar: {
                     '/guide/': [
-                        "introduce",
-                        {
-                            text: "快速上手",
-                            icon: "leibie",
-                            prefix: "getstarted/",
-                            collapsable: false,
-                            children: [
-                              "start",
-                              "projectEnv",
-                              "dataMapping",
-                              "stringGenerationStrategy",
-                              "icon",
-                              "otherConfig",
-                            ],
-                        },
+                        // "introduce",
+                        // {
+                        //     text: "快速上手",
+                        //     icon: "leibie",
+                        //     prefix: "getstarted/",
+                        //     collapsable: false,
+                        //     children: [
+                        //       "start",
+                        //       "projectEnv",
+                        //       "dataMapping",
+                        //       "stringGenerationStrategy",
+                        //       "icon",
+                        //       "otherConfig",
+                        //     ],
+                        // },
                         "install",
-                        "feature",
-                        "whatsnew",
-                        "history",
-                        "buy",
-                        "concatGroup",
-                        "teachingVideo",
-                        "faq"
+                        // "feature",
+                        // "whatsnew",
+                        // "history",
+                        // "buy",
+                        // "concatGroup",
+                        // "teachingVideo",
+                        // "faq"
                     ],
                 }
             }
