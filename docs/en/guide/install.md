@@ -4,7 +4,7 @@ title: Install
 ---
 
 
-* Way 1(recommend) Search **Restful Fast Request** in idea plugin market
-* Way 2. [https://plugins.jetbrains.com/plugin/16988-restful-fast-request](https://plugins.jetbrains.com/plugin/16988-restful-fast-request)
+* Way 1(recommend) Search **Notes** in IDEs' plugin marketplace
+* Way 2. [https://plugins.jetbrains.com/plugin/17501-notes](https://plugins.jetbrains.com/plugin/17501-notes)
 
-![download](../../.vuepress/public/img/download.png)
+[//]: # (![download]&#40;../../.vuepress/public/img/download.png&#41;)

@@ -2,8 +2,8 @@
 home: true
 title: home
 heroImage: /img/pluginIcon.svg
-heroText: Restful Fast Request
-tagline: Born to simplify debugging APIs
+heroText: Notes
+tagline: Code Notes for Developers
 actions:
   - text: Get Started
     link: /en/guide/getstarted/start
@@ -11,154 +11,191 @@ actions:
 features:
   - title: Based on native
     icon: origin
-    details: integrated idea tool
-    link: /en/guide/introduce.html
+    details: Cross platform support, runs with all Jetbrains IDE such as IDEA, WebStorm, Android Studio, offline first, no more Evernote needed
+    link: /en/guide/getstarted/start.html
   - title: Efficiency comes first
     icon: effective
-    details: Only need simple configuration to generate method api request, thus saving a lot of time
+    details: Selection code in editor, then press Alt+M or Alt+Enter, save code notes with just one-click
     link: /en/guide/getstarted/start.html
   - title: Rich features
     icon: features
-    details: Generate url and parameters、API export to postman、SearchEveryWhere support、send/download request、Store request...
-    link: /en/guide/feature.html
+    details: Virtual directory, change notes' programming language, search, delete, trash, link to source code, Evernote viewer, all things ready
+    link: /en/guide/getstarted/start.html
   - title: Lightweight、User-friendly interface
     icon: code-box-fill
-    details: Only 7 MB size,Provides a very intuitive interface
+    details: Only 12 MB download size, intuitive UI, full screen mode, support condensed single row display
 
 head:
   - - meta
     - name: keywords
-      content: Restful Fast Request,idea plugin,http client,Restful API,IDEA plugin
+      content: Notes, Code Notes, Evernote
   - - meta
     - name: description
-      content: Restful Fast Request,idea plugin,a postman-like restful api toolkit plugin based on IDEA,Can help you quickly generate url and params according to existing methods,An API debugging tool + API management tool.Support springmvc、springboot、java-rs
+      content: Notes allows to add code notes/bookmarks without altering the code, supports SQLite local storage or save to Evernote, supports view Evernote notes and images
 ---
 
-<a href="https://www.jetbrains.com"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg" width = "10%" /></a>
-<a href="https://www.jetbrains.com/idea"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg" width = "10%" /></a>
+Notes allow to add code notes/bookmarks without altering the code, supports SQLite local storage or save to Evernote,
+supports view Evernote notes and images
 
-[![](https://badgen.net/badge/Github/fast-request/21D789?icon=github)](https://github.com/dromara/fast-request)
-[![](https://img.shields.io/static/v1?label=Gitee&message=fast-request&color=FF318C&logo=gitee)](https://gitee.com/dromara/fast-request)
 [![Jetbrains Plugins][plugin-img]][plugin]
-![Version](https://img.shields.io/jetbrains/plugin/v/16988?logo=IntelliJ%20IDEA) ![Downloads](https://img.shields.io/jetbrains/plugin/d/16988?color=FE2857) ![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/16988)  [![Telegram](https://img.shields.io/static/v1?label=Telegram&message=Restful%20Fast%20Request&logo=telegram&color=32CD32)](https://t.me/restful_fast_request)
+![Version](https://img.shields.io/jetbrains/plugin/v/17501?logo=IntelliJ%20IDEA) ![Downloads](https://img.shields.io/jetbrains/plugin/d/17501?color=FE2857) ![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/17501)
 
-<iframe frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/16988"></iframe>
+[//]: # (<iframe frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/17501"></iframe>)
 
-### Features :100:
+### Features  :100:
 
-* [x] Postman-like user interface
-* [x] Generate url and parameters in one click
-* [x] SearchEveryWhere support
-* [x] APIs export to Postman
-* [x] Send request to debug API
-* [x] Send request and download
-* [x] Domain customization and switching
-* [x] Custom parameter parse
-* [x] String generation strategy
-* [x] Save api
-* [x] Management API
-* [x] One click navigate or run history save api to method
-* [x] Api to curl
-* [x] Built-in Json parameter editor
-* [x] Automatically associate APIs to module groups
-* [x] API navigate tree
-* [x] Headers group
-* [x] Swagger Parameter parsing support
-* [x] Automatically generate descriptions for API fields
-* [x] One click to generate API documentation
-* [x] Single class API list preview
-* [x] Project Global config
-* [x] HTML preview
-* [x] Automatic cookie storage
-* [x] History request preview
-* [x] API grouping parameter save support
-* [x] Temporary request save support
-* [x] Url suffix support
+* [x] Works like the Mac Notes app
+* [x] Auto save code and notes
+* [x] SearchEveryWhere for notes
+* [x] Supports Evernote sync
+* [x] Editor with the syntax highlighting up to 300 file types
 * [x] ......
 
-::: chart Fast Request Functional Rose Diagram
 
-```json
-{
-  "type": "polarArea",
-  "data": {
-    "labels": ["Usability","Swagger", "Java", "Kotlin", "Pressure test", "Integrations"],
-    "datasets": [
-      {
-        "label": "My First Dataset",
-        "data": [95, 90, 90, 70, 40, 60],
-        "backgroundColor": [
-          "rgb(255, 99, 132)",
-          "rgb(75, 192, 192)",
-          "rgb(255, 182, 193)",
-          "rgb(255, 215, 0)",
-          "rgb(54, 162, 235)",
-          "rgb(0, 250, 154)"
-        ]
-      }
-    ]
-  }
-}
-```
+[//]: # (::: chart Fast Request Functional Rose Diagram)
 
-:::
-------
+[//]: # ()
+[//]: # (```json)
 
-::: chart API tool comparison
+[//]: # ({)
 
-```json
-{
-  "type": "radar",
-  "data": {
-    "labels": ["Usability","Swagger", "Java", "Kotlin", "Pressure test", "Integrations"],
-    "datasets": [
-      {
-        "label": "Fast Request",
-        "data": [95, 90, 90, 70, 40, 60],
-        "fill": true,
-        "backgroundColor": "rgba(0, 250, 154, 0.2)",
-        "borderColor": "rgb(0, 250, 154)",
-        "pointBackgroundColor": "rgb(0, 250, 154)",
-        "pointBorderColor": "#fff",
-        "pointHoverBackgroundColor": "#fff",
-        "pointHoverBorderColor": "rgb(0, 250, 154)"
-      },
-      {
-        "label": "Postman",
-        "data": [80, 80, 80, 50, 90, 100],
-        "fill": true,
-        "backgroundColor": "rgba(54, 162, 235, 0.2)",
-        "borderColor": "rgb(54, 162, 235)",
-        "pointBackgroundColor": "rgb(54, 162, 235)",
-        "pointBorderColor": "#fff",
-        "pointHoverBackgroundColor": "#fff",
-        "pointHoverBorderColor": "rgb(54, 162, 235)"
-      }
-    ]
-  },
-  "options": {
-    "elements": {
-      "line": {
-        "borderWidth": 3
-      }
-    }
-  }
-}
-```
+[//]: # (  "type": "polarArea",)
 
-:::
+[//]: # (  "data": {)
+
+[//]: # (    "labels": ["Usability","Swagger", "Java", "Kotlin", "Pressure test", "Integrations"],)
+
+[//]: # (    "datasets": [)
+
+[//]: # (      {)
+
+[//]: # (        "label": "My First Dataset",)
+
+[//]: # (        "data": [95, 90, 90, 70, 40, 60],)
+
+[//]: # (        "backgroundColor": [)
+
+[//]: # (          "rgb&#40;255, 99, 132&#41;",)
+
+[//]: # (          "rgb&#40;75, 192, 192&#41;",)
+
+[//]: # (          "rgb&#40;255, 182, 193&#41;",)
+
+[//]: # (          "rgb&#40;255, 215, 0&#41;",)
+
+[//]: # (          "rgb&#40;54, 162, 235&#41;",)
+
+[//]: # (          "rgb&#40;0, 250, 154&#41;")
+
+[//]: # (        ])
+
+[//]: # (      })
+
+[//]: # (    ])
+
+[//]: # (  })
+
+[//]: # (})
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (:::)
+
+[//]: # (------)
+
+[//]: # ()
+[//]: # (::: chart API tool comparison)
+
+[//]: # ()
+[//]: # (```json)
+
+[//]: # ({)
+
+[//]: # (  "type": "radar",)
+
+[//]: # (  "data": {)
+
+[//]: # (    "labels": ["Usability","Swagger", "Java", "Kotlin", "Pressure test", "Integrations"],)
+
+[//]: # (    "datasets": [)
+
+[//]: # (      {)
+
+[//]: # (        "label": "Fast Request",)
+
+[//]: # (        "data": [95, 90, 90, 70, 40, 60],)
+
+[//]: # (        "fill": true,)
+
+[//]: # (        "backgroundColor": "rgba&#40;0, 250, 154, 0.2&#41;",)
+
+[//]: # (        "borderColor": "rgb&#40;0, 250, 154&#41;",)
+
+[//]: # (        "pointBackgroundColor": "rgb&#40;0, 250, 154&#41;",)
+
+[//]: # (        "pointBorderColor": "#fff",)
+
+[//]: # (        "pointHoverBackgroundColor": "#fff",)
+
+[//]: # (        "pointHoverBorderColor": "rgb&#40;0, 250, 154&#41;")
+
+[//]: # (      },)
+
+[//]: # (      {)
+
+[//]: # (        "label": "Postman",)
+
+[//]: # (        "data": [80, 80, 80, 50, 90, 100],)
+
+[//]: # (        "fill": true,)
+
+[//]: # (        "backgroundColor": "rgba&#40;54, 162, 235, 0.2&#41;",)
+
+[//]: # (        "borderColor": "rgb&#40;54, 162, 235&#41;",)
+
+[//]: # (        "pointBackgroundColor": "rgb&#40;54, 162, 235&#41;",)
+
+[//]: # (        "pointBorderColor": "#fff",)
+
+[//]: # (        "pointHoverBackgroundColor": "#fff",)
+
+[//]: # (        "pointHoverBorderColor": "rgb&#40;54, 162, 235&#41;")
+
+[//]: # (      })
+
+[//]: # (    ])
+
+[//]: # (  },)
+
+[//]: # (  "options": {)
+
+[//]: # (    "elements": {)
+
+[//]: # (      "line": {)
+
+[//]: # (        "borderWidth": 3)
+
+[//]: # (      })
+
+[//]: # (    })
+
+[//]: # (  })
+
+[//]: # (})
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (:::)
 
 ::: tip Notice  
 Make sure your IDEA version >= 2020.3+
 
-Plugin version| IDEA version requirements
-------------- | -------------
-2.0.0~2.1.3   | 2020.3+
-2022.1.4+     | 2021.3+
 
 Of course, if there are any updates to the plugin, please make sure to update it to the latest version
 :::
 
 
-[plugin]: https://plugins.jetbrains.com/plugin/16988
-[plugin-img]: https://img.shields.io/badge/plugin-FastRequest-x.svg?logo=IntelliJ%20IDEA
+[plugin]: https://plugins.jetbrains.com/plugin/17501
+[plugin-img]: https://img.shields.io/badge/plugin-Notes-x.svg?logo=IntelliJ%20IDEA

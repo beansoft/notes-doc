@@ -12,7 +12,7 @@ features:
 - title: 基于原生
   icon: origin
   details: 跨平台, 支持所有Jetbrains开发工具例如IDEA, WebStorm, Android Studio等, 在线离线均可使用,不再需要额外的诸如Evernote等笔记软件
-  link: /guide/introduce.html
+  link: /guide/getstarted/start.html
 - title: 效率至上
   icon: effective
   details: 选择代码, 然后使用快捷键Alt+M或者Alt+Enter，一键存储笔记, 节省大量时间
@@ -20,7 +20,7 @@ features:
 - title: 功能丰富
   icon: features
   details: 虚拟文件夹, 变更笔记语言, 搜索, 删除, 废纸篓, 关联源文件, 查看 Evernote 笔记, 各种功能一应俱全
-  link: /guide/feature.html
+  link: /guide/getstarted/start.html
 - title: 轻量、界面友好
   icon: code-box-fill
   details: 轻量,仅12M大小,界面直观, 额外提供全窗口展示, 支持切换紧凑模式
