@@ -46,7 +46,7 @@ head:
 [![Jetbrains Plugins][plugin-img]][plugin]
 ![Version](https://img.shields.io/jetbrains/plugin/v/17501?logo=IntelliJ%20IDEA) ![Downloads](https://img.shields.io/jetbrains/plugin/d/17501?color=FE2857) ![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/r/rating/17501)
 
-<iframe frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/17501"></iframe>
+[//]: # (<iframe frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/17501"></iframe>)
 
 ### 功能  :100:
 
