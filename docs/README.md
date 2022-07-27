@@ -212,6 +212,9 @@ head:
 当然如果插件有更新，请确保更新到最新版本
 :::
 
+::: tip 加微信群享6折优惠
+<img src="/img/wechat_group.jpg" style="zoom:25%">
+:::
 
 [comment]: <> (## 🧲 友情链接)
 
