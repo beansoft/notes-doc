@@ -63,7 +63,7 @@ module.exports = defineHopeConfig({
         [
             'script',
             {
-                src: '/js/love-me.js'
+                // src: '/js/love-me.js'
             }
         ],
     ],
