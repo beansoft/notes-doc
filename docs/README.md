@@ -15,7 +15,7 @@ features:
   link: /guide/getstarted/start.html
 - title: 效率至上
   icon: effective
-  details: 选择代码, 然后使用快捷键Alt+M或者Alt+Enter，一键存储笔记, 筛选当前项目笔记, 快捷搞笑
+  details: 选择代码, 然后使用快捷键Alt+M或者Alt+Enter，一键存储笔记, 筛选当前项目笔记, 快捷高效
   link: /guide/getstarted/start.html
 - title: 功能丰富
   icon: features
