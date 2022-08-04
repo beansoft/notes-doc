@@ -9,7 +9,7 @@ actions:
         link: /guide/getstarted/start
         type: primary
 features:
-- title: 基于原生
+- title: 基于Java开发
   icon: origin
   details: 跨平台, 支持所有Jetbrains开发工具例如IDEA, WebStorm, Android Studio等, 在线离线均可使用,不再需要额外的诸如Evernote等笔记软件
   link: /guide/getstarted/start.html
