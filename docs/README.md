@@ -44,8 +44,9 @@ head:
 * 步骤 5: 添加标题, 代码笔记成功保存到了 `⭐代码笔记` 工具窗口
   :::
 
-
 为庆祝简体中文版的发布, 国内用户加QQ群 150453653, 新用户立享6折优惠并不定期送一年免费优惠码.
+
+<iframe src="//player.bilibili.com/player.html?aid=941451517&bvid=BV1YW4y1y7DP&cid=789310525&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="400" width="100%"> </iframe>
 
 中文用户如遇到字体显示问题, 可点击 代码笔记 工具窗口中的 小齿轮 ![](/img/icon/gearPlain.svg) 打开设置界面的默认列表或者树字体为中文字体例如微软雅黑即可.
 
